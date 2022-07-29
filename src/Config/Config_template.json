@@ -1,0 +1,29 @@
+{
+  "Replicate_to_Remote": {
+        "source_path"         : "<enter source directory path for bak files (use forward slash)>",
+        "source_server"       : "<enter server instance name or ip>",
+        "source_database"     : "<enter source database name>",
+        "source_username"     : "<enter source server username for sql auth>",
+        "source_password"     : "<enter source server pwd for sql auth>",
+        "source_driver"       : "{ODBC Driver 17 for SQL Server}",
+        "source_database_path": "<enter source server directory path where mdl files are located>",
+        "target_path"         : "<enter target directory path for bak files>",
+        "target_server"       : "<enter target instance name or ip>",
+        "target_database"     : "<enter target database name>",
+        "target_username"     : "<enter target server username for sql auth>",
+        "target_password"     : "<enter target server pwd for sql auth>",
+        "target_driver"       : "{ODBC Driver 17 for SQL Server}",
+        "target_database_path": "<enter source server directory path where mdl files are located (use forward slash)>",
+        "report_path"         : "<enter target directory to output report path (use forward slash)>"
+  },
+  "Sync_to_Local"   : {
+        "backup_path"   : "<enter source directory path for bak files (use forward slash)>",
+        "server"        : "<enter server instance name or ip>",
+        "database"      : "<enter source database name>",
+        "username"      : "<enter server username for sql auth>",
+        "password"      : "<enter server pwd for sql auth>",
+        "driver"        : "{ODBC Driver 17 for SQL Server}",
+        "database_path" : "<enter source server directory path where mdl files are located (use forward slash)>",
+        "keycolumn"     : "<enter Primary Key Column for Compare>"
+  }
+}
