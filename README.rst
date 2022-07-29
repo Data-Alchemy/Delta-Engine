@@ -1,7 +1,7 @@
 ## Delta Engine ##
 
 -Introduction-
-The delta engine allows you to compare all the databases in 2 different server location (ie: test & prod) to check for differences between the two servers. This is done without having to understand anything about the source and target tables, since it uses a hash value of the source row (md5) to compare against the list of hash values of the target table. Additionally you can specify an key column if you want to be more specific on your compare operation. Once the process has determined that there are missing records in the target location it will process an append operation on that table and produce a csv report of all the records it processed.
+The delta engine allows you to compare all the databases in 2 different server location (ie: test & prod) to check for differences between the two servers. This is done without having to understand anything about the source and target tables, since it uses a hash value of the source row (md5) to compare against the list of hash values of the target table. Additionally you can specify a key column if you want to be more specific on your compare operation. Once the process has determined that there are missing records in the target location it will process an append operation on that table and produce a csv report of all the records it processed.
 
 
 Setup
