@@ -14,7 +14,8 @@
         "target_password"     : "<enter target server pwd for sql auth>",
         "target_driver"       : "{ODBC Driver 17 for SQL Server}",
         "target_database_path": "<enter source server directory path where mdl files are located (use forward slash)>",
-        "report_path"         : "<enter target directory to output report path (use forward slash)>"
+        "report_path"         : "<enter target directory to output report path (use forward slash)>",
+		"keycolumn"			  : "<enter keycolumn for delta compare>"
   },
   "Sync_to_Local"   : {
         "backup_path"   : "<enter source directory path for bak files (use forward slash)>",
