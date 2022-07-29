@@ -118,7 +118,7 @@ for i,r in meta_df.drop_duplicates(subset=['TABLE_NAME']).iterrows():
     delta_results= delta_results[[*remote_columns]]
 
     ####
-    #delta_results.to_csv(f'{report_path}_{table_name}_Delta_Report.csv')
+    delta_results.to_csv(f'{report_path}_{table_name}_Delta_Report.csv')
     try:
         print('writting data to:', table_name)
         rows_inserted = delta_results.count()[0]
